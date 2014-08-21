@@ -1,6 +1,6 @@
 <?php
 
-namespace Levelup\Framework\Templating\Extensions;
+namespace Levelup\Framework\Twig\Extensions;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\Routing\RequestContext;
