@@ -1,19 +1,8 @@
 {
     "name":"levelup/levelup",
     "version":"1.0.0",
-    "require-dev":{
-        "php":">=5.4.0",
-        "symfony/dependency-injection": "2.5.*",
-        "symfony/http-foundation": "2.5.*",
-        "symfony/http-kernel": "2.5.*",
-        "symfony/templating": "2.5.*",
-        "symfony/routing": "2.5.*",
-        "symfony/config": "2.5.*",
-        "symfony/finder": "2.5.x-dev",
-        "symfony/translation": "2.6.*@dev",
-        "doctrine/dbal": "2.4.*",
-
-        "twig/twig": "1.15.*"
+    "require":{
+        "php":">=5.3.0"
     },
     "autoload":{
         "psr-0":{
