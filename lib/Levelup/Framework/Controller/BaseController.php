@@ -33,7 +33,7 @@ class BaseController extends ContainerAware
      */
     public function generateUrl($route, $parameters = array(), $referenceType = UrlGeneratorInterface::ABSOLUTE_PATH)
     {
-        return $this->container->get('router')->generate($route, $parameters, $referenceType);
+        return $this->container->get('url_generator')->generate($route, $parameters, $referenceType);
     }
     /**
      * Forwards the request to another controller.
