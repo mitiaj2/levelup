@@ -16,14 +16,9 @@ use Symfony\Component\Form\Form;
 use Symfony\Component\Form\FormBuilder;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
-/**
- * Controller is a simple implementation of a Controller.
- *
- * It provides methods to common features needed in controllers.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- */
-class Controller extends ContainerAware
+
+
+class BaseController extends ContainerAware
 {
     /**
      * Generates a URL from the given parameters.
