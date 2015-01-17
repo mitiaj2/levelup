@@ -111,9 +111,12 @@ class BaseController extends ContainerAware
      *
      * @return Response A Response instance
      */
-    public function render($view, array $parameters = array(), Response $response = null)
+    public function render($view, array $parameters = array())
     {
-        return $this->container->get('templating')->renderResponse($view, $parameters, $response);
+        $response = new Response();
+        $response->setContent($this->renderView($view, $parameters));
+
+        return $response;
     }
     /**
      * Streams a view.
