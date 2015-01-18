@@ -11,9 +11,7 @@
         "symfony/config": "2.5.*",
         "symfony/finder": "2.5.x-dev",
         "symfony/translation": "2.6.*@dev",
-        "doctrine/dbal": "2.4.*",
-
-        "twig/twig": "1.15.*"
+        "doctrine/dbal": "2.4.*"
     },
     "autoload":{
         "psr-0":{
